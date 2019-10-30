@@ -1,0 +1,106 @@
+body{
+    background-color:black;
+    color:gray;
+}
+/*
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+main{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+*/
+header,main,nav,footer{
+    text-align:center;
+}
+h1{
+    color:yellow;
+    background-color:black;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+nav a{ /*links within "nav" container*/
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration:none; /*removes underline*/
+    color:white;
+}
+
+nav a:hover{ /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition:.9s; /*transition effect*/
+}
+
+footer{
+    color:white;
+    font-size:.8em;
+}
+
+main{
+    display: flex;
+    justify-content:center;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+ul{
+    width:500px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+#content{
+    text-align: center;
+}
+
+.hobby{
+    color:yellow;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+.link{
+    background-color:blue;
+}
+
+#current{
+    color:yellow;
+}
+
+#welcomeText{
+    background-color:#005555;
+}
