@@ -1,5 +1,6 @@
 <nav>
-            <a class="link" id="current" href="/">Home</a>
-            <a class="link" href="/about">About</a>
-            <a class="link" href="/contact">Contact</a>
-        </nav>
+            <a class="link" <%if (current==1) { %> id="current" <% } %> href="/">Home</a>
+            <a class="link" <%if (current==2) { %> id="current" <% } %> href="/about">About</a>
+            <a class="link" <%if (current==3) { %> id="current" <% } %> href="/contact">Contact</a>
+            <a class="link" <%if (current==4) { %> id="current" <% } %> href="/contacts">Contacts</a>
+</nav>

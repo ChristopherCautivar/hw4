@@ -1,0 +1,13 @@
+    <% include partials/header.ejs %>
+        <% include partials/navbar.ejs %>
+        <br><br>
+        <div id="contacts">
+            Here are some people who have contacted me, and have left helpful comments on this page:
+            <hr>
+            <ul>
+                <% for(let i=0; i<contacts.length; i++){ %>
+                    <li> <%= contacts[i] %> </li>
+                <% }; %>
+            </ul>
+        </div>
+    <% include partials/footer.ejs %>

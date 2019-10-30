@@ -104,3 +104,13 @@ ul{
 #welcomeText{
     background-color:#005555;
 }
+
+div{
+    padding: 10px;
+}
+
+#contacts{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
